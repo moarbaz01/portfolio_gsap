@@ -1,0 +1,236 @@
+@media (max-width :1100px) {
+    #man-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .circle {
+        height: 100%;
+        width: 100%;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .image-col {
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media (max-width : 1000px) {
+
+    .btn1,
+    .btn2 {
+        padding: 6px 6px;
+    }
+
+    .name-col h1 {
+        font-size: 2.5rem;
+    }
+
+    .name-col h2 {
+        font-size: 1.5rem;
+    }
+
+    .name-col span {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width : 900px) {
+    #hero-page-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0px;
+        position: relative;
+    }
+
+    .name-col h1 {
+        font-size: 3.2rem;
+    }
+
+    .name-col span {
+        font-size: 2rem;
+    }
+
+    .name-col {
+        padding-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav {
+        display: none;
+    }
+}
+
+@media (max-width : 480px) {
+    #logo {
+        font-size: 1.8rem;
+        padding: 0rem;
+    }
+
+    .name-col {
+        max-width: 420px;
+        padding: 0px 30px
+    }
+
+    .name-col h1 {
+        font-size: 2.3rem;
+    }
+
+    .name-col h2 {
+        font-size: 1.2rem;
+    }
+
+    .circle {
+        top: 40px;
+    }
+
+    .image-col {
+        top: 76px;
+        height: 30rem;
+        width: 28rem;
+        margin-left: 50px;
+    }
+    .circle2{
+        display: none;
+    }
+
+    #hero-page-container {
+        padding: 60px 0px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .box-container {
+        flex-direction: column;
+        gap: 50px;
+       
+    }
+
+    .heading h2 {
+        font-size: 1.5rem;
+        padding: 5px;
+        width: 320px;
+        margin:auto;
+    }
+    .heading h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #right-arrow , #left-arrow{
+        display: none;
+    }
+
+    .about2-heading h1 {
+        color: white;
+        font-size: 2.2rem;
+        white-space: nowrap;
+    }
+    .about2-heading h2 {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    #hero-page-container {
+        padding: 30px 30px 0px;
+    }
+
+    .name-col {
+        max-width: 420px;
+        padding: 70px 30px;
+    }
+
+    .transform{
+        transform: scale(1);
+        transition: all 0.4s ease-in-out;
+    }
+
+    #contact-container h1 {
+        font-size: 2rem;
+        padding: 0px 10px;
+    }
+
+    #contact{
+        height: 50vh;
+    }
+
+    #social-accounts {
+        padding: 25px 0px;
+    }
+
+    .social-id h1 {
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+
+    #social-accounts-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .social-img img{
+        height: 250px;
+        width: 250px;
+    }
+
+    #projects-container{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 30px;
+    }
+
+    .website-img img {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        z-index: 20;
+    }
+
+    .website-img-content {
+        width: 350px;
+    }
+
+    .fa-chart-line {
+        font-size: 3rem;
+    }
+
+    #footer-container{
+        padding: 1.2rem;
+    }
+
+    #footer-container p {
+        text-align: center;
+        width: 320px;
+        font-size: 0.6rem;
+        opacity: 0.5;
+    }
+
+    #footer-container h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .projects-list img {
+        height: 5rem;
+        width: 7rem;
+    
+    }
+
+    footer{
+        height: 20vh;
+    }
+
+    .website-img-content h1 {
+        color: var(--background);
+        font-size: 1.5rem;
+    }
+}

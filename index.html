@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <script src="https://kit.fontawesome.com/6fc92de75b.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <!-- Header -->
+            <header>
+                <div id="header-container">
+                    <div id="logo">CodeKaro</div>
+                    <ul id="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Social</a></li>
+                    </ul>
+                    <div class="changeTheme">
+                        <i onclick="changeLight()" class="fa-sharp fa-solid fa-sun"></i>
+                        <i onclick="changeDark()" class="fa-solid fa-moon"></i>
+                    </div>
+                    
+                </div>
+
+            </header>
+
+
+            <!-- Hero Page -->
+            <div id="hero-page">
+                <div id="hero-page-container">
+                    <div class="name-col">
+                        <span>Hi , I am</span>
+                        <h1>Mohammed Arbaz</h1>
+                        <h2 id="changeText">Full Stack Web Developer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam unde fuga, pariatur non a
+                            fugiat nisi quidem, illum voluptas tenetur cumque quos dolores? Consequatur, voluptate.</p>
+                        <div class="hero-page-btn">
+                            <button class="btn1">Contact</button>
+                            <button class="btn2">Download CV</button>
+
+                        </div>
+                    </div>
+                    <div class="image-col">
+                        <img id="man-img" src="./images/man.png">
+                        <img class="circle" src="./images/circle.png">
+                    </div>
+
+                    <img class="circle2" src="./images/circle.png">
+                </div>
+            </div>
+            <!-- About Section -->
+
+            <div class="about">
+                <div class="about-container">
+                    <div class="heading">
+                        <h1>What can i do ?</h1>
+                        <h2>I have experience in MERN from long time</h2>
+                    </div>
+                    <div class="box-container">
+                        <div class="box">
+                            <i class="fa-solid fa-pen fa-shake"></i>
+                            <h1>Web Design</h1>
+                            <p>A well-designed website is the cornerstone of a successful online presence. </p>
+                        </div>
+                        <div class="box transform">
+                            <i class="fa-solid fa-window-restore fa-shake"></i>
+                            <h1>UI/UX Desginer</h1>
+                            <p>User interface (UI) design is the heart and soul of creating intuitive </p>
+                        </div>
+                        <div class="box">
+                            <i class="fa-solid fa-database fa-shake"></i>
+                            <h1>Backend</h1>
+                            <p>A strong backend is the backbone of any successful website or application. </p>
+                        </div>
+
+                    </div>
+
+                    <i id="right-arrow"  onclick="sliderRight()" class="fa-solid fa-arrow-right"></i>
+                    <i id="left-arrow" onclick="sliderLeft()" class="fa-solid fa-arrow-left"></i>
+                </div>
+
+            </div>
+
+            <!-- Second About  -->
+            <div class="about">
+                <div class="about-container">
+                    <div class="about2-heading">
+                        <h1>Mohammed Arbaz</h1>
+                        <h2>Full Stack Web Developer</h2>
+                    </div>
+                    <div class="about2-man-img">
+                        <div id="circle-white"><img src="./images/man.png" alt="">
+                        </div>
+                        <h2>Founder of CodeKaro</h2>
+                        <span>Rajasthan , India</span>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="company-img">
+                        <img src="./images/microsoft.png" alt="">
+                        <span>Microsoft , India</span>
+                    </div>
+                    <div class="company-img">
+                        <img src="./images/amazon.png" alt="">
+                        <span>Amazon , India</span>
+                    </div>
+                    <div class="company-img">
+                        <img src="./images/google.png" alt="">
+                        <span>Google , India</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+
+            <div id="projects">
+                <div id="projects-container">
+                    <div class="website-img">
+                        <img src="./images/website.png" alt="">
+                    </div>
+
+                    <div class="website-img-content">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h1> Grow your bussiness with me </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et commodi fugiat nostrum quaerat
+                            itaque impedit facere asperiores ad architecto nihil hic similique enim, ab nulla iusto
+                            animi! Animi, laborum nemo.</p>
+                        <button class="btn1">Contact</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Recent Projects -->
+
+            <div id="recent-projects">
+                <div id="recent-projects-container">
+
+                    <h1 class="recent-projects-heading">Recent Projects</h1>
+
+
+                    <div class="projects-list">
+                        <img src="./images/p1.jpg" alt="">
+                        <img src="./images/p2.jpg" alt="">
+                        <img src="./images/p3.jpg" alt="">
+                    </div>
+                    <div class="projects-list">
+                        <img src="./images/p4.jpg" alt="">
+                        <img src="./images/p5.jpg" alt="">
+                        <img src="./images/p6.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Section -->
+
+            <div id="contact">
+                <div id="contact-container">
+                    <h1>Tell me about your next project</h1>
+                    <i class="fa-solid fa-arrow-down" style="color: #ffffff;"></i>
+
+                </div>
+            </div>
+
+            <!-- Social Accounts -->
+
+            <div id="social-accounts">
+                <div id="social-accounts-container">
+                   
+                    <div class="social-id">
+                        <h1>My Social Accounts</h1>
+                        <div class="icons">
+                            <a href=""><img src="./images/instagram.png"> @moarbaz09</a>
+                            <a href=""><img src="./images/telegram.png">@moarbaz09</a>
+                            <a href=""><img src="./images/twitter.png">@mrarbaz01</a>
+                            <a href=""><img src="./images/linkedin.png">@mohammedarbaz01</a>
+
+                        </div>
+                    </div>
+                    <div class="social-img">
+                        <img height="350px" width="300px" src="./images/social.png" alt="">
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+
+            <footer>
+                <div id="footer-container">
+                    <h1>CodeKaro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus tempore doloremque iste ipsa ab reprehenderit </p>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+
+                </div>
+            </footer>
+
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
